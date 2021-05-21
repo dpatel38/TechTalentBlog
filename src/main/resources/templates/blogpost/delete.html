@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Delete a Blog</title>
+  <!--  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>-->
+  <!--  &lt;!&ndash; Latest compiled and minified CSS &ndash;&gt;-->
+  <!--  <link href="../../webjars/bootstrap/3.3.7/css/bootstrap.min.css"-->
+  <!--        rel="stylesheet">-->
+  <div th:replace="/fragments/styling :: head-style" ></div>
+</head>
+<body>
+<div th:replace="fragments/navbar :: navbar" ></div>
+
+<div class="row">
+  <div class="col-xl">
+    <h3>This post has been deleted.</h3>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md">
+    <a href="/">
+      <button class="btn btn-primary">Return Home</button>
+    </a>
+    <a href="/blogposts/new">
+      <button class="btn btn-secondary">Create Another Blog Post</button>
+    </a>
+  </div>
+</div>
+
+<div th:replace="/fragments/styling :: body-links" ></div>
+</body>
+</html>
