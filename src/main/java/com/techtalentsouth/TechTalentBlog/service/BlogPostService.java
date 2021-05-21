@@ -1,9 +1,6 @@
 package com.techtalentsouth.TechTalentBlog.service;
 
 import com.techtalentsouth.TechTalentBlog.model.BlogPost;
-import org.springframework.web.bind.annotation.PathVariable;
-
-import java.util.List;
 import java.util.Optional;
 
 
@@ -20,6 +17,8 @@ public interface BlogPostService {
     Optional<BlogPost> editPostById(Long id);
 
     BlogPost save(BlogPost blogPost);
+
+    Optional<BlogPost> viewPostById(Long id);
 
 
 

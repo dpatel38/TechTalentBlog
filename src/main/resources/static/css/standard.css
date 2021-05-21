@@ -9,3 +9,27 @@ body{
 	padding-bottom: 10px;
 	border-radius: 5px;
 }
+
+h3{
+    color: white;
+}
+
+.topnav a:hover {
+    border-bottom: 3px solid red;
+}
+
+.topnav{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.nav-link{
+    margin-left: 25px;
+}
+
+.tag{
+    margin-left: 550px;
+}
+
+.tag1{
+    margin-left= 525px;
+}

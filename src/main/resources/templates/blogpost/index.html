@@ -27,6 +27,9 @@
                                 <button class="btn btn-warning">Edit Post</button>
                             </a>
                             <!-- Link to Show  -->
+                            <a href="#" th:href="@{blogposts/view/{id}(id=${blog.id})}">
+                                <button class="btn btn-success">View Post</button>
+                            </a>
                             <!--  Link to Destroy -->
                             <a href="#" th:href="@{blogposts/delete/{id}(id=${blog.id})}">
                                 <button class="btn btn-danger" type="submit">Delete Post</button>
